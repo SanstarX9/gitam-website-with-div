@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  color: green;
+  padding: 20px;
+}
+
+.logo {
+  width: 120px;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.bottomleft {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  border: 1px solid green;
+  padding: 10px;
+}
+
+.bottomright {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40%;
+  border: 1px solid green;
+  padding: 15px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  border: 1px solid green;
+}
+
+.row {
+  display: flex;
+  border-bottom: 1px solid green;
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.col {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.header {
+  background: green;
+  color: white;
+  font-weight: bold;
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+}
